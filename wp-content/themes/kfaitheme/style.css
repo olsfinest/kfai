@@ -1,0 +1,169 @@
+/*
+Theme Name:  KFAI Theme 
+Description: Custom theme for  KFAI Website
+Version: 1.0
+Text Domain: kfaitheme
+Author: Skol Marketing
+Author URI: https://skolmarketing.com/
+*/
+
+
+
+.nav-btn-search{
+	float: right;color: #FFF !important;  padding: 16px 10px;display: none;
+}
+@media screen and (max-width:1200px){
+	.nav-btn-search{
+		display: block;
+	}
+	#header .header-menu .off-canvas-move{
+		background-color: #f84e5d;z-index: 10;
+	}
+	#header .header-menu .site-product-search{
+		width: 100%;height: 60px;overflow: visible;z-index: 9;
+	}
+	#header .header-menu .site-product-search .search-form{
+		clear: both;z-index: 8;overflow: hidden;position: absolute;top: -50%;right: 20px;bottom: auto;left: 20px;-webkit-transition: all .2s ease-in-out 0s;-moz-transition: all .2s ease-in-out 0s;transition: all .2s ease-in-out 0s;
+	}
+	#header .header-menu .site-product-search .search-form.toggle-open{
+		top: 100%;
+	}
+}
+
+#filter-results, #filter-initial-results{
+	position: relative;
+}
+#filter-results .filterloadmore, .filteroverlayloadmore{
+	position: absolute;top: 0px;left: 5px;right: 5px;bottom: 10px;background-color: rgba(0, 0, 0, 0.8);z-index: 999;color: #FFF;font-size: 20px;padding: 50px 20px;text-align: center;
+}
+.filter-filter-navigation{
+	text-align: center;clear: both;
+    padding: 50px 0 0;
+}
+.filter-filter-navigation span{
+	display: none !important;
+}
+.filter-filter-navigation a{
+	display: none !important;
+}
+.filter-filter-navigation a.next{
+	display: inline-block !important;vertical-align: middle;width: 135px;height: 62px;background:none!important;background-image: url("assets/images/loadmore.png")!important;text-indent: -9999px;float: none;
+}
+.filter-filter-navigation a.next:hover,
+.filter-filter-navigation a.next:active,
+.filter-filter-navigation a.next:focus{
+	background:none!important;background-image: url("assets/images/loadmore.png")!important;text-indent: -9999px;
+}
+.program-gateway-blocks .gateway-block .block-content{
+	min-height: 329px;
+}
+.search-filters .col-filter form .bootstrap-select .btn{
+	padding-right: 35px;
+}
+
+.liheading{
+	background-color: #F84E5D;
+    color: #FFF;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 10px 20px 10px 50px;
+    position: relative;
+    cursor: pointer;
+}
+.licontent{
+	padding: 0px 20px 20px;
+}
+.ui-icon-triangle-1-e,
+.ui-icon-triangle-1-s{
+	display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 27px;
+    margin-right: 10px;
+    text-align: center;
+    position: absolute;
+    top: 8px;
+    left: 20px;
+}
+.ui-icon-triangle-1-e:before{
+	content:'\271A';
+	display: inline-block;
+	vertical-align: middle;
+}
+.ui-icon-triangle-1-s:before{
+	content:'\2212';
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.tpl-single-program #main .col-program-details .episodes-btns .btn:hover{
+	color: #FFF !important;
+}
+.episodes-btns .btn{
+	min-width: 230px;
+	line-height: 1.6;
+}
+.archive-item{
+	padding: 20px 0;
+}
+.archive-item h3{
+	margin-bottom: 10px;
+}
+.archive-item .ep-btns{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.archive-item .ep-btns .btn{
+	min-width: 240px;
+}
+
+.paginationbyday{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.paginationbyday ul{
+	list-style:none;
+	padding: 0;
+	margin: 0;
+}
+.paginationbyday ul .prev{
+	float: left;
+}
+.paginationbyday ul .next{
+	float: right;
+}
+
+.post-meta { display:none!important; }
+
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt , .woocommerce ul.products li.product .button , .woocommerce .cart .button, .woocommerce .cart input.button {   font-weight:100;  border: 1px solid #F84E5D; color:#F84E5D;   background-color: white; padding:15px 20px; }
+
+.woocommerce #respond input#submit.alt:hover , .woocommerce a.button.alt:hover , .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover , .woocommerce ul.products li.product .button:hover , .woocommerce .cart .button:hover , .woocommerce .cart input.button:hover {  background-color: black!important; color:white!important; border: 1px solid black;  } 
+
+
+
+.single-product .post-author { display:none; }
+
+input#coupon_code {     width: 150px;   padding: 10px; }
+
+@media screen and (min-width: 770px) {
+	
+	.even {     width: 50%!important;
+		float: left!important;
+		border-right: 4px solid #F84E5D!important; 
+	}
+	
+	.add {    width: 50%!important;
+		float: right!important;
+	
+		padding-left: 30px;
+		padding-top: 0!important;
+		padding-bottom: 30px!important;
+	 }
+
+	
+}
+
+.tpl-single-program #main .col-program-details h1 { font-size: 36px!important; }
+.widget-area-content h3.widget-title { font-size:20px!important; }
+.sched-content .sched-prog .sched-time { margin-bottom: 20px!important; }
